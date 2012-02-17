@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinionServer", "MinionServer\MinionServer.csproj", "{D2F64F84-B747-4E35-8572-E0DC10C4A2A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minion", "..\Minion\Minion.csproj", "{1E2286CD-4423-47A5-B274-0C003093580E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2F64F84-B747-4E35-8572-E0DC10C4A2A7}.Debug|x86.ActiveCfg = Debug|x86
+		{D2F64F84-B747-4E35-8572-E0DC10C4A2A7}.Debug|x86.Build.0 = Debug|x86
+		{D2F64F84-B747-4E35-8572-E0DC10C4A2A7}.Release|x86.ActiveCfg = Release|x86
+		{D2F64F84-B747-4E35-8572-E0DC10C4A2A7}.Release|x86.Build.0 = Release|x86
+		{1E2286CD-4423-47A5-B274-0C003093580E}.Debug|x86.ActiveCfg = Debug|x86
+		{1E2286CD-4423-47A5-B274-0C003093580E}.Debug|x86.Build.0 = Debug|x86
+		{1E2286CD-4423-47A5-B274-0C003093580E}.Release|x86.ActiveCfg = Release|x86
+		{1E2286CD-4423-47A5-B274-0C003093580E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
