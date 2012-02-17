@@ -54,7 +54,8 @@
     <Compile Include="Game\Map\Tile.cs" />
     <Compile Include="Game\Map\TileMap.cs" />
     <Compile Include="Game\Map\TileType.cs" />
-    <Compile Include="Server\MessageTypes.cs" />
+    <Compile Include="Server\INetworkMessage.cs" />
+    <Compile Include="Server\MessageType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 ﻿
-namespace MinionServer.Types
+namespace MinionServer.Server
 {
-    public enum MessageTypes
+    public enum MessageType
     {
         // Connection actions
         ConnectionAccepted,

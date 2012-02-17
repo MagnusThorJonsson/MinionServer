@@ -8,7 +8,7 @@ using Lidgren.Network;
 
 using Minion2D.Helpers;
 
-using MinionServer.Types;
+using MinionServer.Server;
 using MinionServer.Game.Entities;
 using MinionServer.Game.Map;
 
@@ -137,7 +137,7 @@ namespace MinionServer
 
                         // Send an id to the player
                         NetOutgoingMessage response = server.CreateMessage();
-                        response.Write((byte)MessageTypes.ConnectionAccepted);
+                        response.Write((byte)MessageType.ConnectionAccepted);
                         response.Write((byte)1); // ID
                         response.Write(32); // Pos X
                         response.Write(32); // Pos Y
@@ -193,7 +193,7 @@ namespace MinionServer
                     if (otherPlayer.Tag != null)
                     {
                         currPlayer = otherPlayer.Tag as Player;
-                        om.Write((byte)MessageTypes.PlayerUpdate);
+                        om.Write((byte)MessageType.PlayerUpdate);
                         om.Write(currPlayer.NetworkId);
                         om.Write(currPlayer.PosX);
                         om.Write(currPlayer.PosY);
