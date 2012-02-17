@@ -1,8 +1,0 @@
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\bin\Debug\MinionServer.exe
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\bin\Debug\MinionServer.pdb
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\obj\x86\Debug\ResolveAssemblyReference.cache
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\obj\x86\Debug\MinionServer.exe
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\obj\x86\Debug\MinionServer.pdb
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\bin\Debug\Lidgren.Network.dll
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\bin\Debug\Minion.dll
-c:\users\maggi\documents\visual studio 2010\Projects\MinionServer\MinionServer\bin\Debug\Minion.pdb
