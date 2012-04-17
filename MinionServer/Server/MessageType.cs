@@ -5,8 +5,9 @@ namespace MinionServer.Server
     {
         // Connection actions
         ConnectionAccepted,
-        PlayerConnected,
 
+        // Player updates
+        PlayerConnected,
         PlayerUpdate
     }
 }

@@ -19,8 +19,6 @@ namespace MinionServer.Game.Entities
         public float BaseSpeed;
         public float MaxVerticalVelocity;
 
-        private float _jumpTime;
-
         public int OriginX;
         public int OriginY;
 
@@ -59,7 +57,6 @@ namespace MinionServer.Game.Entities
 
             this.BaseSpeed = 6f;
             this.MaxVerticalVelocity = 12f;
-            this._jumpTime = 0f;
 
             this.IsOnGround = false;
             this.IsJumping = false;
